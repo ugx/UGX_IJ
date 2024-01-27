@@ -13,5 +13,8 @@ public class Main {
         }
 
         System.out.println("123");
+
+        Caller c = new Caller();
+        c.call();
     }
 }
